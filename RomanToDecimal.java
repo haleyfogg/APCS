@@ -66,7 +66,7 @@ public class RomanToDecimal {
 
         while (correctDecimal >= 900) {
             S = S + c + m;
-            decimal -= 900; }
+            correctDecimal -= 900; }
 
         while (correctDecimal >= 500) {
             S = S + d;
