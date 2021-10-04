@@ -4,6 +4,8 @@
  * @version Monday, September 27, 2021
  * @author haleyfogg
  */
+
+//import statement for assertEquals and assertNotEquals statements.
 import static org.junit.Assert.*;
 
 public class RomanToDecimalTest {
@@ -13,7 +15,7 @@ public class RomanToDecimalTest {
         assertEquals(RomanToDecimal.romanToDecimal("XI"), 11);
         assertEquals(RomanToDecimal.romanToDecimal("IXIX"), -2);
         assertEquals(RomanToDecimal.romanToDecimal("ur mom"), -1);
-        assertEquals(RomanToDecimal.romanToDecimal("CM"), 900);
+        assertEquals(RomanToDecimal.romanToDecimal("M"), 1000);
         assertEquals(RomanToDecimal.romanToDecimal("XIII"), 13);
         assertEquals(RomanToDecimal.romanToDecimal("ABC"), -1);
         assertEquals(RomanToDecimal.romanToDecimal("hello"), -1);
