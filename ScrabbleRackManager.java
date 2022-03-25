@@ -60,6 +60,7 @@ public class ScrabbleRackManager<tiles> {
         /**
          * builds and returns an ArrayList of String objects that are values pulled from
          * the dictionary/database based on the available letters in the user's tile rack
+         * @return an ArrayList of all the playable words from the tileRack
          */
 
         public ArrayList<String> getPlaylist () {
@@ -114,6 +115,7 @@ public class ScrabbleRackManager<tiles> {
 
         /**
          * main method for the class; use only 3 command lines in main
+         * @param args command line arguments if needed 
          */
         public static void main (String[]args){
             ScrabbleRackManager app = new ScrabbleRackManager();
